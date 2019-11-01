@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>my web page</title>
+	<style>
+		.main{
+			padding: 20px;
+			margin-top: 0px;
+		}
+		*{
+			box-sizing: border-box;
+		}
+		body{
+			margin: 0;
+		}
+		.head{
+			background-color: lightgrey;
+			padding: 20px;
+			text-align: center;
+			text-shadow: 4px black;
+		}
+		.nav{
+			overflow: hidden;
+			background-color: lightgreen
+		}
+		.nav a{
+			float: center;
+			display: inline-block;
+			color: indigo;
+			font-size: 30px;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration:none; 
+		}
+		a;hover{
+			background-color: pink;
+			color: black;
+		}
+		.col{
+			float: left;
+			padding: 10px;
+		}
+		.col.left{
+			width: 25%;
+			
+		}
+		.col.right{
+			width: 25%;
+			
+		}
+		.col.center{
+			width: 50%;
+		}
+		.foot{
+			width: 100%;
+			background-color: grey;
+			height: 50%;
+			text-align: center;
+			font-size: 30px;
+		}
+		.row:after{
+			content: "";
+			display: table;
+			clear: both;
+		}
+		@media screen and (max-width: 600px){
+			.co.side, .col.middle{
+				width: 100%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+	<div class="head">
+		<h1>PARAGRAPH</h1>
+	</div>
+	<div class="nav">
+		<a href="about">ABOUT</a>
+		<a href="product">PRODUCT</a>
+		<a href="more">MORE</a>
+	</div>
+	<div class="row">
+		<div class="col left">
+			<h2>SIDE</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		<div class="col center">
+			<h2>MAIN BAR</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		<div class="col right">
+			<h2>here by</h2>
+			<p>ksjdhfuiyefhksHKFHSSSiouhuihwfuwehoHihwefqiIHIHFhIO</p>
+		</div>
+	</div>
+	<div class="foot">
+		<p>footer</p>
+	</div>
+</div>
+</body>
+</html>
